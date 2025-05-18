@@ -28,7 +28,7 @@ import frame293 from '@/assets/Frame 293.png'
 import frame294 from '@/assets/Frame 294.png'
 export default function Section() {
     return <>
-        <div style={{ display: 'flex', gap: '200px', marginTop: '100px' }}>
+        <div className="ml" style={{ display: 'flex', gap: '200px', marginTop: '100px' }}>
             <div>
                 <Button title="Твій помічник" bgcolor='#F2F7FF' color='#015DFD' />
                 <h1 style={{ fontSize: '60px' }}>Голосовий робот <br />
@@ -79,7 +79,7 @@ export default function Section() {
             </div>
         </div>
         <div style={{ backgroundColor: '#F5F8FB', marginTop: '100px', padding: "30px" }}>
-            <p style={{ fontSize: '30px' }}>Пакетні пропозиції</p>
+            <p className="b" style={{ fontSize: '30px' }}>Пакетні пропозиції</p>
             <div className="hero">
                 <Carton img={group1} description="за хвилину розмови. Одноразовий платіж від 0 ₴. " title="Спробувати >" />
                 <Carton img={group11} description="за хвилину розмови. Одноразовий платіж від 0 ₴. " title="Спробувати >" />
@@ -154,8 +154,8 @@ export default function Section() {
             </div>
         </div>
         <div style={{ marginTop: '100px' }}>
-            <button style={{ border: 'none', color: '#015DFD', padding: '10px 20px' }}>Інтеграція</button>
-            <h1>Інтеграція з відкритого API</h1>
+            <button className="mobile" style={{ border: 'none', color: '#015DFD', padding: '10px 20px' }}>Інтеграція</button>
+            <h1 className="automobile">Інтеграція з відкритого API</h1>
             <div className="bod">
                 <div className="cord">
                     <img src={customer} alt="" />
@@ -175,24 +175,24 @@ export default function Section() {
                 </div>
             </div>
         </div>
-        <h1>Відгуки</h1>
+        <h1 className="test">Відгуки</h1>
         <div className="person">
             <Person />
             <Person />
             <Person />
         </div>
-        <div>
+        <div className="divgon">
             <button style={{ border: 'none', color: '#015DFD', padding: '10px 20px' }}>FAQ</button>
             <h1 style={{ fontSize: '40px' }}>Відповіді на популярні за питання</h1>
         </div>
         <div className="flexText">
-            <div style={{width: '400px'}}>
+            <div className="topest" style={{width: '400px'}}>
                 <strong>Відповіді на популярні за питання</strong>
                 <p style={{marginBottom: '50px'}}>1,67 ₴ - вартість хвилини дзвінка, тарифікація посекундна. Ви платите тільки за час розмови робота з клієнтом. Якщо клієнт прийняв дзвінок і повісив трубку через 30 секунд, ви заплатите 0,8 ₴, не взяв трубку - не заплатите нічого.</p>
                 <strong>Який відсоток клієнтів здогадується, що дзвонить робот?</strong>
                 <p>Робота розпізнають лише 5%, якщо скрипт враховує більшість відповідей клієнтів і ролики записані диктором. Скрипт безкоштовно допоможуть скласти наші менеджери. Запис роликів можна замовити у наших дикторів.</p>
             </div>
-            <div style={{width: '500px'}}>
+            <div className="topest" style={{width: '500px'}}>
                 <strong>З якою швидкістю Zvonobot обдзвонює базу?</strong>
                 <p style={{marginBottom: '50px'}}>Максимальна швидкість - 50 000 дзвінків на годину. При бажанні ви можете знизити швидкість розсилки, вибравши потрібну в налаштуваннях.</p>
                 <strong>Скільки часу займає налаштування розсилки і запуск?</strong>

@@ -12,7 +12,7 @@ export default function Header() {
                     <p>Можливості</p>
                 </div>
             </div>
-            <div style={{display: 'flex', gap: '20px'}}>
+            <div className='bg' style={{display: 'flex', gap: '20px'}}>
                 <Button bgcolor='#F2F7FF' color='#015DFD' title="Вхід" />
                 <Button bgcolor='#5D3AEF' color='#FFFFFF' title="Реєстрація" />
             </div>

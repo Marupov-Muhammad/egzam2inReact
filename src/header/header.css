@@ -3,12 +3,26 @@
     align-items: center;
     justify-content: space-between;
 }
+
 .divP {
     display: flex;
     gap: 20px;
 }
+
 .felx {
     display: flex;
     align-items: center;
     gap: 50px;
+}
+
+@media (max-width: 1200px) and (min-width: 300px) {
+    .felx {
+        flex-direction: column;
+    }
+    .divAll {
+        flex-direction: column;
+    }
+    .bg {
+        margin-top: 30px;
+    }
 }
